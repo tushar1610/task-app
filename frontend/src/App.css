@@ -1,0 +1,32 @@
+.addTask-overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.85);
+    display:grid;
+    place-items:center;
+}
+.addTask-container{
+    width:45vw;
+    max-width:800px;
+    height:50vh;
+    max-height: 900px;
+    background:white;
+    border-radius: 10px;
+}
+.delete-button{
+    visibility: hidden;
+    display: inline-block;
+}
+.table-row:hover .delete-button{
+    visibility: visible;
+}
+.completed-button{
+    visibility: hidden;
+    display: inline-block;
+}
+.table-row:hover .completed-button{
+    visibility: visible;
+}
